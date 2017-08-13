@@ -1,29 +1,101 @@
-## docsify
+<h1 align="center">
+  <a href="https://docsify.js.org">
+    Project Gaia
+  </a>
+</h1>
 
-> 一个神奇的文档网站生成工具
+<p align="center">
+  个人无聊的时候乱写的Jekyll主题, 通过Bootstrap 4 + JQuery 3实现
+</p>
 
-## 是什么
 
-docsify 是一个动态生成文档网站的工具。不同于 GitBook、Hexo 的地方是它不会生成将 `.md` 转成 `.html` 文件，所有转换工作都是在运行时进行。
+## 演示 
 
-这将非常实用，如果只是需要快速的搭建一个小型的文档网站，或者不想因为生成的一堆 `.html` 文件“污染” commit 记录，只需要创建一个 `index.html` 就可以开始写文档而且直接[部署在 GitHub Pages](zh-cn/deploy.md)。
+![](    _media/1.jpg  )
+![](    _media/2.jpg  )
+![](    _media/3.jpg  )
+![](    _media/4.jpg  )
 
-查看[快速开始](zh-cn/quickstart.md)了解详情。
 
-## 特性
-- 无需构建，写完文档直接发布
-- 容易使用并且轻量 (~18kB gzipped)
-- 智能的全文搜索
-- 提供多套主题
-- 丰富的 API
-- 支持 Emoji
-- 兼容 IE10+
-- 支持 SSR ([example](https://github.com/QingWei-Li/docsify-ssr-demo))
+## 用法
 
-## 例子
+1. [   给我捐款   ](http://szhshp.org/about.html)
+1. Fork 然后 give me a star!
+1. **Important** 记得把 `_config.yml` 文件中的 `baseurl` 改成实际使用的URL
 
-可以查看 [Showcase](https://github.com/QingWei-Li/docsify/#showcase) 来了解使用 docsify 的文档项目。
+## 插件
 
-## 捐赠
+### 代码高亮
 
-如果你觉得 docsify 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我[捐赠](https://github.com/QingWei-Li/donate)。
+通过这玩意实现的 : [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
+
+用法`Jquery.ready`时运行下面这段代码：
+
+<pre class="brush: html">
+      SyntaxHighlighter.all();
+</pre>
+
+高亮示例：
+
+![](      _media/X3.png )
+
+### TOC目录
+
+通过这玩意实现的: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
+
+![](     _media/X2.png   )
+
+同样`Jquery.ready`时自动运行
+
+### md-post-header-collapse
+
+通过这玩意实现的: [    szhielelp/md-post-header-collapse  ](https://github.com/szhielelp/md-post-header-collapse)
+
+Post加载完毕后运行`$.headerCollapseRobot()`
+
+```js
+    /*header collapsible*/
+    $.headerCollapseRobot(
+      arr_Id_CollapseEnds =  new Array("end"),                       
+      arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
+      arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
+      arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
+    )
+```
+
+![](     _media/X1.png   )
+
+点击标题旁边的加减号即可将章节段落进行收缩/展开
+
+### 文章置顶
+
+Post的header里面加个参数`stickie: true`即可
+
+header示例:
+
+```
+layout: post
+title: blablablalala
+category : Comic
+tags : [Comic, 10101]
+stickie: true
+```
+
+然后这篇文章就会出现在所有文章的前面
+
+
+### 阅读进度条
+
+灵感来自于 [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.com/#docs/promise)
+
+![](   _media/X4.png   )
+
+显示阅读进度的一个进度条而已
+
+## 开源协议
+
+MIT
+
+## 捐款
+
+[  支付宝    ](http://szhshp.org/about.html)

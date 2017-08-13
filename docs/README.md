@@ -16,11 +16,6 @@
 ![](    _media/3.jpg  )
 ![](    _media/4.jpg  )
 
-See demo page here: [    Demo Page   ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
-
-See extended blog here: [    Blog Page   ](http://szhshp.org/)
-
-See chinese guide post here: [   中文指导    ](http://szhshp.org?pagename=/tech/2017/01/09/projectgaia.html)
 
 ## Usage
 
@@ -34,14 +29,13 @@ See chinese guide post here: [   中文指导    ](http://szhshp.org?pagename=/t
 
 Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
 
-Usage(include necessary CSS and JS and run **SyntaxHighlighter.all()**):
+Usage:
 
 <pre class="brush: html">
       SyntaxHighlighter.all();
 </pre>
 
 Here is code snippet example:
-
 
 ![](      _media/X3.png )
 
