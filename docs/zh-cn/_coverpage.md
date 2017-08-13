@@ -5,5 +5,5 @@
 - Powered by Jekyll, Bootstrap 4, JQuery 3
 
 [GitHub](https://github.com/szhielelp/JekyllTheme-ProjectGaia)
-[  Demo Page     ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
-[  Extended Blog  ](http://szhshp.org)
+[  演示页面    ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
+[  博客示例  ](http://szhshp.org)
