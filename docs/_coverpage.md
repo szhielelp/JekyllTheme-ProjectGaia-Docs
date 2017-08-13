@@ -1,13 +1,9 @@
-![logo](_media/icon.svg)
+# Project Gaia
 
-# docsify <small>4.2.8</small>
+>Jekyll theme by [      Szhshp ](http://szhshp.org)   
 
-> A magical documentation site generator.
+- Powered by Jekyll, Bootstrap 4, JQuery 3
 
-- Simple and lightweight (~18kB gzipped)
-- No statically built html files
-- Multiple themes
-
-
-[GitHub](https://github.com/QingWei-Li/docsify/)
-[Get Started](#docsify)
+[GitHub](https://github.com/szhielelp/JekyllTheme-ProjectGaia)
+[  Demo Page     ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
+[  Extended Blog  ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)

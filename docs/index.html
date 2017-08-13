@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>docsify</title>
+  <title>Project Gaia - Jekyll Theme</title>
   <link rel="icon" href="_media/favicon.ico">
   <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
   <meta name="description" content="A magical documentation generator.">
@@ -18,6 +18,10 @@
   </style>
 </head>
 <body>
+  <nav>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+  </nav>
   <div id="app">Loading ...</div>
 </body>
 <script>
@@ -29,40 +33,22 @@
     auto2top: true,
     coverpage: true,
     executeScript: true,
-    loadSidebar: true,
-    loadNavbar: true,
     mergeNavbar: true,
     maxLevel: 4,
     subMaxLevel: 2,
     name: 'docsify',
     search: {
       noData: {
-        '/de-de/': 'Keine Ergebnisse!',
         '/zh-cn/': '没有结果!',
         '/': 'No results!'
       },
       paths: 'auto',
       placeholder: {
-        '/de-de/': 'Suche',
         '/zh-cn/': '搜索',
         '/': 'Search'
       }
     },
-    formatUpdated: '{MM}/{DD} {HH}:{mm}',
-    plugins: [
-      function(hook, vm) {
-        hook.beforeEach(function (html) {
-          var url = 'https://github.com/QingWei-Li/docsify/blob/master/docs/' + vm.route.file
-          var editHtml = '[:memo: Edit Document](' + url + ')\n'
-
-          return editHtml
-            + html
-            + '\n----\n'
-            + 'Last modified {docsify-updated} '
-            + editHtml
-        })
-      }
-    ]
+    formatUpdated: '{MM}/{DD} {HH}:{mm}'
   }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>

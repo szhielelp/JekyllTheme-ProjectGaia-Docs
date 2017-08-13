@@ -1,28 +1,131 @@
-## docsify
+<h1 align="center">
+  <a href="https://docsify.js.org">
+    Project Gaia
+  </a>
+</h1>
 
-> A magical documentation site generator.
+<p align="center">
+  Personal Jekyll theme, Powered Bootstrap 4, JQuery 3
+</p>
 
-## What is it
 
-docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as website. All you need to do is create an `index.html` to start and [deploy it on GitHub Pages](deploy.md).
+## Demo 
 
-See the [Quick start](quickstart.md) for more details.
+![](    _media/1.jpg  )
+![](    _media/2.jpg  )
+![](    _media/3.jpg  )
+![](    _media/4.jpg  )
 
-## Features
+See demo page here: [    Demo Page   ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
 
-* No statically built html files
-* Simple and lightweight (~18kB gzipped)
-* Smart full-text search plugin
-* Multiple themes
-* Useful plugin API
-* Emoji support
-* Compatible with IE10+
-- Support SSR ([example](https://github.com/QingWei-Li/docsify-ssr-demo))
+See extended blog here: [    Blog Page   ](http://szhshp.org/)
 
-## Examples
+See chinese guide post here: [   中文指导    ](http://szhshp.org?pagename=/tech/2017/01/09/projectgaia.html)
 
-Check out the [Showcase](https://github.com/QingWei-Li/docsify/#showcase) to docsify in use.
+## Usage
+
+1. Fork and give me a star!
+1. Donate me please!
+1. **Important** Please change the `baseurl` value in  `_config.yml` to your repo name
+
+## Plugins
+
+### SyntaxHighlighter
+
+Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
+
+Usage(include necessary CSS and JS and run **SyntaxHighlighter.all()**):
+
+<pre class="brush: html">
+      SyntaxHighlighter.all();
+</pre>
+
+Here is code snippet example:
+
+
+![](      _media/X3.png )
+
+### Table of Content
+
+Realized with this repo: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
+
+![](     _media/X2.png   )
+
+Auto-run when page loaded.
+
+### md-post-header-collapse
+
+Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://github.com/szhielelp/md-post-header-collapse)
+
+Run **$.headerCollapseRobot()** after post loaded.
+
+```js
+    /*header collapsible*/
+    $.headerCollapseRobot(
+      arr_Id_CollapseEnds =  new Array("end"),                       
+      arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
+      arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
+      arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
+    )
+```
+
+![](     _media/X1.png   )
+
+You can try clicking on the icons near titles.
+
+### Stickie Post
+
+Just put a attribute in header of the specific post:
+
+ <pre class="brush: html; highlight: [5]">
+layout: post
+title: blablablalala
+category : Comic
+tags : [Comic, 10101]
+stickie: true
+</pre>
+
+Then current post will show ahead of other posts.
+
+### Reading Progressbar
+
+Inspired from [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.com/#docs/promise)
+
+![](   _media/X4.png   )
+
+It will show your reading progress for current post.
+
+## License
+
+MIT
 
 ## Donate
 
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](https://github.com/QingWei-Li/donate). :heart:
+[   Donate via Alipay    ](http://szhshp.org/about.html)
+
+## Change Log
+
+- __May 30th, 2017__
+  
+  Added reading progressbar for post page.
+  
+- __May 6th, 2017__
+  
+  Updated font page
+  Added global font style
+  
+- __April 3nd, 2017__
+  
+  Added new font
+  
+- __Mar 5th, 2017__
+  
+  Style updated
+  
+- __Mar 1st, 2017__
+  
+  TOC plugin updated
+  
+- __Feb 28th, 2017__
+  
+  Rebuild to include **Bootstrap 4-Alpha** and **JQuery 3**
