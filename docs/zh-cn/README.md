@@ -9,7 +9,7 @@
 </p>
 
 
-## 演示 
+## 实例 
 
 ![](    _media/1.jpg  )
 ![](    _media/2.jpg  )
@@ -29,11 +29,13 @@
 
 通过这玩意实现的 : [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
 
-用法`Jquery.ready`时运行下面这段代码：
+在普通的多行代码前后加一个`<pre>`并且类名里面写上对应的语言
 
-<pre class="brush: html">
-      SyntaxHighlighter.all();
+```html
+<pre class="brush: js">
+  var szhshp = 'cool';
 </pre>
+```
 
 高亮示例：
 

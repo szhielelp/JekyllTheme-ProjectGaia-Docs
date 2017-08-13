@@ -29,11 +29,13 @@
 
 Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
 
-Usage:
+Put  `<pre>` tag with specific class name between code blocks:
 
-<pre class="brush: html">
-      SyntaxHighlighter.all();
+```html
+<pre class="brush: js">
+  var szhshp = 'cool';
 </pre>
+```
 
 Here is code snippet example:
 
@@ -45,7 +47,7 @@ Realized with this repo: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
 
 ![](     _media/X2.png   )
 
-Auto-run when page loaded.
+Auto-enable when page loaded.
 
 ### md-post-header-collapse
 
