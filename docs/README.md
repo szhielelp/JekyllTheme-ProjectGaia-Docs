@@ -101,27 +101,5 @@ MIT
 
 ## Change Log
 
-- __May 30th, 2017__
-  
-  Added reading progressbar for post page.
-  
-- __May 6th, 2017__
-  
-  Updated font page
-  Added global font style
-  
-- __April 3nd, 2017__
-  
-  Added new font
-  
-- __Mar 5th, 2017__
-  
-  Style updated
-  
-- __Mar 1st, 2017__
-  
-  TOC plugin updated
-  
-- __Feb 28th, 2017__
-  
-  Rebuild to include **Bootstrap 4-Alpha** and **JQuery 3**
+[    Change Log   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#readme)
+

@@ -101,3 +101,7 @@ MIT
 ## 捐款
 
 [  支付宝    ](http://szhshp.org/about.html)
+
+## 更新历史
+
+[ 更新历史   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#readme)
