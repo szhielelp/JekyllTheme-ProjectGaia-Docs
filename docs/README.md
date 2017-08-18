@@ -32,9 +32,11 @@ Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://githu
 Put  `<pre>` tag with specific class name between code blocks:
 
 ```html
+
 <pre class="brush: js">
   var szhshp = 'cool';
 </pre>
+
 ```
 
 Here is code snippet example:
