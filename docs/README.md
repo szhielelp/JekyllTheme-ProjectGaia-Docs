@@ -21,7 +21,7 @@
 
 1. Fork and give me a star!
 1. Donate me please!
-1. **Important** Please change the `baseurl` value in  `_config.yml` to your repo name
+1. **Important**: Please change the `baseurl` value in  `_config.yml` to your repo name
 
 ## Plugins
 
@@ -102,4 +102,3 @@ MIT
 ## Change Log
 
 [    Change Log   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#readme)
-
