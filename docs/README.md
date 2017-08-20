@@ -93,6 +93,15 @@ Inspired from [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.co
 
 It will show your reading progress for current post.
 
+### Comments Plugin
+
+Change the content in **_includes/comment-full.html**, then all post pages will have a comment box.
+
+## Trouble Shooting
+
+I'm trying to keep this project as simple as possible, but if you still get stuck into any problem, please leave a msg here: [Demo page ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/). I may check it if I got time.
+
+
 ## License
 
 MIT

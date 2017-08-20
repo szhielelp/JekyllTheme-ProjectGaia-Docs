@@ -6,4 +6,5 @@
 
 [GitHub](https://github.com/szhielelp/JekyllTheme-ProjectGaia)
 [  Demo Page     ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
+[  中文文档    ](https://szhielelp.github.io/JekyllTheme-ProjectGaia-Docs/#/zh-cn/)
 [  Example Blog  ](http://szhshp.org)

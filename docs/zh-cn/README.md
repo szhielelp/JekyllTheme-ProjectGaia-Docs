@@ -94,6 +94,16 @@ stickie: true
 
 显示阅读进度的一个进度条而已
 
+### 三方评论框
+
+建议使用纯JS的三方评论，这样不会改变文章页面的总体结构
+
+给所有文章页面添加三方评论插件，只需要修改**_includes/comment-full.html**里面的内容。
+
+## 遇到问题
+
+你可以在[项目页面 ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/) 或者 [我的博客 ](http://szhshp.org ) 留言，我一般回回复并且提供一些解决方案
+
 ## 开源协议
 
 MIT
