@@ -53,14 +53,14 @@ stickie: true
 
 你可以在 **js/post.js**开启或关闭某些插件
 
-```js
-  var config = {
-    headerCollapsibleActive: true,
-    syntaxHighlighter: true,
-    toc: true,
-    headerNumber: true,
-    readingProgressBar: true
-  }
+```javascript
+var config = {
+  headerCollapsibleActive: true,
+  syntaxHighlighter: true,
+  toc: true,
+  headerNumber: true,
+  readingProgressBar: true
+}
 ```
 
 ### 代码高亮
@@ -99,14 +99,14 @@ stickie: true
 
 Post加载完毕后运行`$.headerCollapseRobot()`
 
-```js
-    /*header collapsible*/
-    $.headerCollapseRobot(
-      arr_Id_CollapseEnds =  new Array("end"),                       
-      arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
-      arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
-      arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
-    )
+```javascript
+/*header collapsible*/
+$.headerCollapseRobot(
+  arr_Id_CollapseEnds =  new Array("end"),                       
+  arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
+  arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
+  arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
+)
 ```
 
 ![](     _media/X1.png   )

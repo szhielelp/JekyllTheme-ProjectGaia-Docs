@@ -47,14 +47,14 @@ Change the content in **_includes/comment-full.html**, then all post pages will 
 
 You could active/deactive all plugins in **js/post.js**
 
-```js
-  var config = {
-    headerCollapsibleActive: true,
-    syntaxHighlighter: true,
-    toc: true,
-    headerNumber: true,
-    readingProgressBar: true
-  }
+```javascript
+var config = { 
+  headerCollapsibleActive: true, 
+  syntaxHighlighter: true, 
+  toc: true, 
+  headerNumber: true, 
+  readingProgressBar: true 
+}
 ```
 
 
@@ -65,11 +65,9 @@ Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://githu
 Put  `<pre>` tag with specific class name between code blocks:
 
 ```html
-
 <pre class="brush: js">
   var szhshp = 'cool';
 </pre>
-
 ```
 
 Here is code snippet example:
@@ -94,14 +92,14 @@ Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://githu
 
 Run **$.headerCollapseRobot()** after post loaded.
 
-```js
-    /*header collapsible*/
-    $.headerCollapseRobot(
-      arr_Id_CollapseEnds =  new Array("end"),                       
-      arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
-      arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
-      arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
-    )
+```javascript
+/*header collapsible*/
+$.headerCollapseRobot(
+  arr_Id_CollapseEnds =  new Array("end"),                       
+  arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
+  arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
+  arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
+)
 ```
 
 ![](     _media/X1.png   )
