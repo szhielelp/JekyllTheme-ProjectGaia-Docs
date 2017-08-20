@@ -23,7 +23,40 @@
 1. Donate me please!
 1. **Important**: Please change the `baseurl` value in  `_config.yml` to your repo name
 
-## Plugins
+## Blog Plugins
+
+### Stickie Post
+
+Just put a attribute in header of the specific post:
+
+ <pre class="brush: html; highlight: [5]">
+layout: post
+title: blablablalala
+category : Comic
+tags : [Comic, 10101]
+stickie: true
+</pre>
+
+Then current post will show ahead of other posts.
+
+### Comments Plugin
+
+Change the content in **_includes/comment-full.html**, then all post pages will have a comment box.
+
+## Post Plugins
+
+You could active/deactive all plugins in **js/post.js**
+
+```js
+  var config = {
+    headerCollapsibleActive: true,
+    syntaxHighlighter: true,
+    toc: true,
+    headerNumber: true,
+    readingProgressBar: true
+  }
+```
+
 
 ### SyntaxHighlighter
 
@@ -51,6 +84,10 @@ Realized with this repo: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
 
 Auto-enable when page loaded.
 
+### headerNumber
+
+Add episode numbers for main headers
+
 ### md-post-header-collapse
 
 Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://github.com/szhielelp/md-post-header-collapse)
@@ -71,19 +108,6 @@ Run **$.headerCollapseRobot()** after post loaded.
 
 You can try clicking on the icons near titles.
 
-### Stickie Post
-
-Just put a attribute in header of the specific post:
-
- <pre class="brush: html; highlight: [5]">
-layout: post
-title: blablablalala
-category : Comic
-tags : [Comic, 10101]
-stickie: true
-</pre>
-
-Then current post will show ahead of other posts.
 
 ### Reading Progressbar
 
@@ -93,9 +117,6 @@ Inspired from [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.co
 
 It will show your reading progress for current post.
 
-### Comments Plugin
-
-Change the content in **_includes/comment-full.html**, then all post pages will have a comment box.
 
 ## Trouble Shooting
 

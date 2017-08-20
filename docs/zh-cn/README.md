@@ -25,6 +25,44 @@
 
 ## 插件
 
+### 文章置顶
+
+Post的header里面加个参数`stickie: true`即可
+
+header示例:
+
+```
+layout: post
+title: blablablalala
+category : Comic
+tags : [Comic, 10101]
+stickie: true
+```
+
+然后这篇文章就会出现在所有文章的前面
+
+
+### 三方评论框
+
+建议使用纯JS的三方评论，这样不会改变文章页面的总体结构
+
+给所有文章页面添加三方评论插件，只需要修改**_includes/comment-full.html**里面的内容。
+
+
+## 文章插件
+
+你可以在 **js/post.js**开启或关闭某些插件
+
+```js
+  var config = {
+    headerCollapsibleActive: true,
+    syntaxHighlighter: true,
+    toc: true,
+    headerNumber: true,
+    readingProgressBar: true
+  }
+```
+
 ### 代码高亮
 
 通过这玩意实现的 : [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
@@ -49,6 +87,12 @@
 
 同样`Jquery.ready`时自动运行
 
+### 段落标题
+
+给文章的歌标题前添加段落编号
+
+>总觉得header前面加个数字看起来会整齐一些
+
 ### md-post-header-collapse
 
 通过这玩意实现的: [    szhielelp/md-post-header-collapse  ](https://github.com/szhielelp/md-post-header-collapse)
@@ -69,21 +113,6 @@ Post加载完毕后运行`$.headerCollapseRobot()`
 
 点击标题旁边的加减号即可将章节段落进行收缩/展开
 
-### 文章置顶
-
-Post的header里面加个参数`stickie: true`即可
-
-header示例:
-
-```
-layout: post
-title: blablablalala
-category : Comic
-tags : [Comic, 10101]
-stickie: true
-```
-
-然后这篇文章就会出现在所有文章的前面
 
 
 ### 阅读进度条
@@ -93,12 +122,6 @@ stickie: true
 ![](   _media/X4.png   )
 
 显示阅读进度的一个进度条而已
-
-### 三方评论框
-
-建议使用纯JS的三方评论，这样不会改变文章页面的总体结构
-
-给所有文章页面添加三方评论插件，只需要修改**_includes/comment-full.html**里面的内容。
 
 ## 遇到问题
 
