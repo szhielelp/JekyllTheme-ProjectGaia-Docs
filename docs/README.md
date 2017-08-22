@@ -21,7 +21,7 @@
 
 1. Fork and give me a star!
 1. Donate me please!
-1. **Important**: Please change the `baseurl` value in  `_config.yml` to your repo name
+1. `Important`: Please change the `baseurl` value in  `_config.yml` to your repo name
 
 ## Blog Plugins
 
@@ -41,11 +41,11 @@ Then current post will show ahead of other posts.
 
 ### Comments Plugin
 
-Change the content in **_includes/comment-full.html**, then all post pages will have a comment box.
+Change the content in `_includes/comment-full.html`, then all post pages will have a comment box.
 
 ## Post Plugins
 
-You could active/deactive all plugins in **js/post.js**
+You could active/deactive all plugins in `js/post.js`
 
 ```javascript
 var config = { 
@@ -90,7 +90,7 @@ Add episode numbers for main headers
 
 Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://github.com/szhielelp/md-post-header-collapse)
 
-Run **$.headerCollapseRobot()** after post loaded.
+Run `$.headerCollapseRobot()` after post loaded.
 
 ```javascript
 /*header collapsible*/

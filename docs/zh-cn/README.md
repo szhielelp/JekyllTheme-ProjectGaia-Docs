@@ -21,7 +21,7 @@
 
 1. [   给我捐款   ](http://szhshp.org/about.html)
 1. Fork 然后 give me a star!
-1. **Important** 记得把 `_config.yml` 文件中的 `baseurl` 改成实际使用的URL
+1. `Important` 记得把 `_config.yml` 文件中的 `baseurl` 改成实际使用的URL
 
 ## 插件
 
@@ -46,12 +46,12 @@ stickie: true
 
 建议使用纯JS的三方评论，这样不会改变文章页面的总体结构
 
-给所有文章页面添加三方评论插件，只需要修改**_includes/comment-full.html**里面的内容。
+给所有文章页面添加三方评论插件，只需要修改`_includes/comment-full.html`里面的内容。
 
 
 ## 文章插件
 
-你可以在 **js/post.js**开启或关闭某些插件
+你可以在 `js/post.js`开启或关闭某些插件
 
 ```javascript
 var config = {
