@@ -62,12 +62,39 @@ var config = {
 
 Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
 
-Put  `<pre>` tag with specific class name between code blocks:
+You need to put the `brush JS files` to  `post.html`:
+
+```html
+<!-- Highlighter  -->
+   <script src="{{site.url}}{{site.baseurl}}/js/shCore.js" type='text/javascript'></script>
+   <!-- <script src="{{site.url}}{{site.baseurl}}/js/shBrushCSharp.js" type='text/javascript'></script> -->
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushColdFusion.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushCpp.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushCss.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushJava.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushPhp.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushRuby.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushSql.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushXml.js" type='text/javascript'></script>
+   <script src="{{site.url}}{{site.baseurl}}/js/shBrushJScript.js" type='text/javascript'></script>
+```
+
+
+Put  `<pre>` tag with specific classname between code blocks:
 
 ```html
 <pre class="brush: js">
   var szhshp = 'cool';
 </pre>
+```
+
+And the classname of `<pre>` should be in this format:
+
+```
+brush: [language]
+
+brush: cpp
+brush: java
 ```
 
 Here is code snippet example:
