@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  Personal Jekyll theme, Powered Bootstrap 4, JQuery 3
+  Personal Jekyll theme, Powered by Bootstrap 4, JQuery 3
 </p>
 
 
