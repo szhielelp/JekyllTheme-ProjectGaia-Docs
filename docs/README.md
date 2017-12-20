@@ -20,14 +20,14 @@
 ## Usage
 
 1. Fork and give me a star!
-1. Donate me please!
-1. `Important`: Please change the `baseurl` value in  `_config.yml` to your repo name
+1. Donate please!
+1. `Important`: Please change the `baseurl` value in  `_config.yml` to [your repo name]
 
 ## Blog Plugins
 
 ### Stickie Post
 
-Just put a attribute in header of the specific post:
+Put a attribute in header of specific post:
 
  <pre class="brush: html; highlight: [5]">
 layout: post
@@ -39,6 +39,8 @@ stickie: true
 
 Then current post will show ahead of other posts.
 
+![](   _media/X6.png   )
+
 ### Comments Plugin
 
 Change the content in `_includes/comment-full.html`, then all post pages will have a comment box.
@@ -48,13 +50,14 @@ Change the content in `_includes/comment-full.html`, then all post pages will ha
 You could active/deactive all plugins in `js/post.js`
 
 ```javascript
-var config = { 
-  headerCollapsibleActive: true, 
-  syntaxHighlighter: true, 
-  toc: true, 
-  headerNumber: true, 
-  readingProgressBar: true 
-}
+  var config = {
+    headerCollapsibleActive: true,
+    syntaxHighlighter: true,
+    toc: true,
+    headerNumber: true,
+    readingProgressBar: true,
+    lightbox: true
+  }
 ```
 
 
@@ -142,6 +145,12 @@ Inspired from [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.co
 
 It will show your reading progress for current post.
 
+
+### Lightbox
+
+A plugin for better experience of displaying pictures.
+
+![](   _media/X5.png   )
 
 ## Trouble Shooting
 

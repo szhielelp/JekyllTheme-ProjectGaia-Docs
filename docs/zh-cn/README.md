@@ -43,6 +43,7 @@ stickie: true
 
 然后这篇文章就会出现在所有文章的前面
 
+![](   _media/X6.png   )
 
 ### 三方评论框
 
@@ -56,13 +57,14 @@ stickie: true
 你可以在 `js/post.js`开启或关闭某些插件
 
 ```javascript
-var config = {
-  headerCollapsibleActive: true,
-  syntaxHighlighter: true,
-  toc: true,
-  headerNumber: true,
-  readingProgressBar: true
-}
+  var config = {
+    headerCollapsibleActive: true,
+    syntaxHighlighter: true,
+    toc: true,
+    headerNumber: true,
+    readingProgressBar: true,
+    lightbox: true
+  }
 ```
 
 ### 代码高亮
@@ -148,6 +150,19 @@ $.headerCollapseRobot(
 ![](   _media/X4.png   )
 
 某日我心情很好于是就做了这个东西
+
+
+### Lightbox
+
+一个方便图片展示的插件
+
+![](   _media/X5.png   )
+
+## Trouble Shooting
+
+I'm trying to keep this project as simple as possible, but if you still get stuck into any problem, please leave a msg here: [Demo page ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/). I may check it if I got time.
+
+
 
 ## 遇到问题
 
