@@ -158,15 +158,10 @@ $.headerCollapseRobot(
 
 ![](   _media/X5.png   )
 
-## Trouble Shooting
-
-I'm trying to keep this project as simple as possible, but if you still get stuck into any problem, please leave a msg here: [Demo page ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/). I may check it if I got time.
-
-
 
 ## 遇到问题
 
-你可以在[项目页面 ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/) 或者 [我的博客 ](http://szhshp.org ) 留言，我一般会回复并且提供一些解决方案
+你可以在[项目页面 ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/) 或者 [我的博客 ](http://szhshp.org ) 留言，我只要闲的没事的时候就会去看看
 
 ## 开源协议
 
