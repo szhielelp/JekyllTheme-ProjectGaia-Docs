@@ -17,15 +17,15 @@
     }
     /* latin */
     @font-face {
-      font-family: 'Titillium Web';
+      font-family: 'FZLTXIHJW';
       font-style: normal;
       font-weight: 400;
-      src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(_media/TitilliumWeb-Regular.ttf)  format('woff2');
+      src: url(_media/FZLTXIHJW.ttf) ;
       unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
     }
     body{
         font-size: 1rem;
-        font-family: 'Titillium Web', sans-serif !important;
+        font-family: 'FZLTXIHJW', sans-serif !important;
         text-shadow: 0.01em 0.01em 0.01em #000 !important;
     }
   </style>
@@ -39,12 +39,8 @@
 </body>
 <script>
   window.$docsify = {
-    alias: {
-      '.*?/changelog': 'https://raw.githubusercontent.com/QingWei-Li/docsify/master/CHANGELOG',
-      '/.*/_navbar.md': '/_navbar.md'
-    },
     auto2top: true,
-    coverpage: true,
+    coverpage: ['/', '/zh-cn/'],
     executeScript: true,
     mergeNavbar: true,
     maxLevel: 4,

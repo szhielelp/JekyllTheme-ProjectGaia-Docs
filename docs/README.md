@@ -1,120 +1,108 @@
 <h1 align="center">
-  <a href="https://docsify.js.org">
+  <a href="https://github.com/szhielelp/JekyllTheme-ProjectGaia">
     Project Gaia
   </a>
 </h1>
 
-<p align="center">
-  Personal Jekyll theme, Powered by Bootstrap 4, JQuery 3
-</p>
-
 
 ## Demo 
 
-![](    _media/1.jpg  )
-![](    _media/2.jpg  )
-![](    _media/3.jpg  )
-![](    _media/4.jpg  )
+![](    _media/demo/1.png  )
+![](    _media/demo/2.png  )
+![](    _media/demo/3.png  )
+![](    _media/demo/4.png  )
+
+
 
 
 ## Usage
 
 1. Fork and give me a star!
-1. Donate please!
 1. `Important`: Please change the `baseurl` value in  `_config.yml` to [your repo name]
+
+
+## Whats New in Version 2.0?
+
+1. New Layout for sidebar
+1. New Category page
+1. New Code Highlighter
+1. Latest Bootstrap
+1. Animations
+2. SCSS + ES6
 
 ## Blog Plugins
 
 ### Stickie Post
 
-Put a attribute in header of specific post:
+Put a attribute `stickie: true` in YAML header for specific post:
 
- <pre class="brush: html; highlight: [5]">
+```js
 layout: post
 title: blablablalala
 category : Comic
 tags : [Comic, 10101]
-stickie: true
-</pre>
+stickie: true 
+```
 
 Then current post will show ahead of other posts.
 
-![](   _media/X6.png   )
+
+![]( _media/post/stickyPost.png ){: width="600px"}
+
 
 ### Comments Plugin
 
-Change the content in `_includes/comment-full.html`, then all post pages will have a comment box.
+Change the content in `_includes/comment-full.html`, then all post pages will have a comment plugin.
 
 ## Post Plugins
 
 You could active/deactive all plugins in `js/post.js`
 
 ```javascript
-  var config = {
-    headerCollapsibleActive: true,
-    syntaxHighlighter: true,
-    toc: true,
-    headerNumber: true,
-    readingProgressBar: true,
-    lightbox: true
-  }
+    let config = {
+      activeHighlight: true,
+      activeHeaderCollapse: true,
+      activeHeaderNumber: true,
+      activeLightbox: true,
+      activeReadingProgressBar: true,
+    }
 ```
 
 
-### SyntaxHighlighter
-
-Realized with this repo: [    syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter)
-
-You need to put the `brush JS files` to  `post.html`:
-
-```html
-<!-- Highlighter  -->
-   <script src="{{site.url}}{{site.baseurl}}/js/shCore.js" type='text/javascript'></script>
-   <!-- <script src="{{site.url}}{{site.baseurl}}/js/shBrushCSharp.js" type='text/javascript'></script> -->
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushColdFusion.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushCpp.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushCss.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushJava.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushPhp.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushRuby.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushSql.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushXml.js" type='text/javascript'></script>
-   <script src="{{site.url}}{{site.baseurl}}/js/shBrushJScript.js" type='text/javascript'></script>
-```
+### Highlighter
 
 
-Put  `<pre>` tag with specific classname between code blocks:
+Write your code like this:
 
-```html
-<pre class="brush: js">
+    ```
+      var szhshp = 'cool';
+    ```
+
+Plugin will **auto** detect your language and highlight it.
+
+If you want to set the language manually:
+
+
+    ```js
+      var szhshp = 'cool';
+    ```
+
+
+And the code snippet will be highlighted as below:
+
+
+```js
   var szhshp = 'cool';
-</pre>
+  var szhshp = 'awesome';
 ```
 
-And the classname of `<pre>` should be in this format:
-
-```
-brush: [language]
-
-brush: cpp
-brush: java
-```
-
-Here is code snippet example:
-
-![](      _media/X3.png )
-
-### Table of Content
-
-Realized with this repo: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
-
-![](     _media/X2.png   )
-
-Auto-enable when page loaded.
 
 ### headerNumber
 
 Add episode numbers for main headers
+
+![]( _media/post/headerNumber.png )
+
 
 ### md-post-header-collapse
 
@@ -122,17 +110,11 @@ Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://githu
 
 Run `$.headerCollapseRobot()` after post loaded.
 
-```javascript
-/*header collapsible*/
-$.headerCollapseRobot(
-  arr_Id_CollapseEnds =  new Array("end"),                       
-  arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
-  arr_ExcludeElemPrefix_InCollapsible  = new Array("comment-"),      
-  arr_ExcludeElemPrefix_InCollapsing = new Array("sidebar-toc-Ik4D-")
-)
+```js
+    $.headerCollapseRobot('#page-content', ['h1', 'h2', 'h3'], ['blockquote']);
 ```
 
-![](     _media/X1.png   )
+![]( _media/post/headerCollapse.png )
 
 You can try clicking on the icons near titles.
 
@@ -141,20 +123,33 @@ You can try clicking on the icons near titles.
 
 Inspired from [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.com/#docs/promise)
 
-![](   _media/X4.png   )
+![]( _media/post/progressbar.png ){: width="400px"}
 
 It will show your reading progress for current post.
 
 
-### Lightbox
+### Picture Lightbox 
 
 A plugin for better experience of displaying pictures.
 
-![](   _media/X5.png   )
+
+![]( _media/post/lightbox.png )
+
+
+
+Example Usage:
+
+```
+  ![](path_to_image)
+
+
+  ![](path_to_image)
+  *Here is desc*
+```
 
 ## Trouble Shooting
 
-I'm trying to keep this project as simple as possible, but if you still get stuck into any problem, please leave a msg here: [Demo page ]( https://szhielelp.github.io/JekyllTheme-ProjectGaia/). I may check it if I got time.
+I'm trying to keep this project as simple as possible, but if you still get stuck into any problem, please raise a issue in [Github](https://github.com/szhielelp/JekyllTheme-ProjectGaia). I may check it if I got time.
 
 
 ## License
