@@ -162,4 +162,4 @@ MIT
 
 ## Change Log
 
-[    Change Log   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#readme)
+[    Change Log   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#change-log)

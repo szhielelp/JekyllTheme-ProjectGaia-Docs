@@ -145,4 +145,4 @@ MIT
 
 ## 更新历史
 
-[ 更新历史   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#readme)
+[ 更新历史   ](https://github.com/szhielelp/JekyllTheme-ProjectGaia#change-log)
