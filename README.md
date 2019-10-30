@@ -8,7 +8,7 @@
 ## Dev
 
 ```
-npm install
+npm install docsify -g
 docsify serve docs
 ```
 
