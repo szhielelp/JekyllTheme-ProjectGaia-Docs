@@ -23,10 +23,9 @@
 
 ## Whats New in Version 2.0?
 
-1. New Layout for sidebar
-1. New Category page
-1. New Code Highlighter
-1. Latest Bootstrap
+1. New sidebar design 
+1. New category page design
+1. New code highlighter
 1. Animations
 2. SCSS + ES6
 
@@ -47,7 +46,7 @@ stickie: true
 Then current post will show ahead of other posts.
 
 
-![]( _media/post/stickyPost.png ){: width="600px"}
+![]( _media/post/stickyPost.png )
 
 
 ### Comments Plugin
@@ -123,7 +122,7 @@ You can try clicking on the icons near titles.
 
 Inspired from [http://es6.ruanyifeng.com/#docs/promise](http://es6.ruanyifeng.com/#docs/promise)
 
-![]( _media/post/progressbar.png ){: width="400px"}
+![]( _media/post/progressbar.png )
 
 It will show your reading progress for current post.
 
