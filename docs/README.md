@@ -4,7 +4,7 @@
 >
 >## News (2020 July)
 >
->**No more maintenance for this repo.** I have something new for you: [Project Titan](https://github.com/szhielelp/NextJS-BlogTemplate-ProjectTitan)
+>**No more maintenance for this repo.** I have something new for you -->> [Project Titan](https://github.com/szhielelp/NextJS-BlogTemplate-ProjectTitan) <<--
 >
 >**Project Titan** is built with **NextJS** x **Material UI** x **Typescript**, with totally same styles as **Project Gaia**.
 >
