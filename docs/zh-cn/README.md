@@ -12,7 +12,7 @@
 >
 ># News (2020-08)
 >
->**当前主题未来不再维护** 来试试新的模板吧: [Project Titan](https://github.com/szhielelp/NextJS-BlogTemplate-ProjectTitan)
+>**当前主题未来不再维护** 来试试新的模板吧: -->> [Project Titan](https://github.com/szhielelp/NextJS-BlogTemplate-ProjectTitan) <<--
 >
 >**Project Titan** 通过 **NextJS** x **Material UI** x **Typescript** 实现, 和 **Project Gaia** 拥有完全相同的风格和设计.
 >
