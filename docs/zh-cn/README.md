@@ -9,6 +9,21 @@
 </p>
 
 
+>
+># News (2020-08)
+>
+>**当前主题未来不再维护** 来试试新的模板吧: [Project Titan](https://github.com/szhielelp/NextJS-BlogTemplate-ProjectTitan)
+>
+>**Project Titan** 通过 **NextJS** x **Material UI** x **Typescript** 实现, 和 **Project Gaia** 拥有完全相同的风格和设计.
+>
+>你可以从 **Project Gaia** 无缝迁移到 **Project Titan** (大概吧...)
+>
+>可以通过下方两个站点查看两者的区别:
+>
+>- Project Titan: [https://szhshp.org](https://szhshp.org)
+>- Project Gaia: [https://legacy.szhshp.org](https://legacy.szhshp.org)
+
+
 ## 实例 
 
 
